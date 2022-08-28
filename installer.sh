@@ -27,5 +27,5 @@ echo "Installing basic applications. Others can be installed later using the PAM
 sudo pacman -S --noconfirm vlc chromium libreoffice-fresh yaru-gtk-theme yaru-icon-theme yaru-metacity-theme yaru-sound-theme plank brisk-menu mate-applet-dock mate-netbook mate-menu mate-tweak compiz cutefish-wallpapers gvfs-smb
 echo "Installation done!"
 echo "Please refer to the link attached below on how to continue the installation of YAY to download extra applications if needed."
-read -p "LinkHere"
+read -p "https://github.com/thelegendaryboy64/LightNexus/blob/main/YAYInstallation.md"
 exit
