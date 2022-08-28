@@ -1,11 +1,6 @@
 #!/bin/sh
 clear
-echo "This tool requires:"
-echo "*Root access"
-echo "*An Arch Linux installation with the MATE desktop environment"
-echo "*Preferrably a stable internet connection"
-echo "If you ran this installer without root access, please press CTRL+C to stop this installer and add SUDO at the beginning before continuing with the installation. If you're running this installer on anything outside of Arch+MATE, please stop this installer and follow my YouTube guide on how you can install a basic Arch+MATE desktop, linked here:"
-echo "LinkHere"
+echo "If you ran this installer without root access, please press CTRL+C to stop this installer and add SUDO at the beginning before continuing with the installation."
 echo ""
 echo "Welcome to LightNexus! This is made specifically for Core 2 Duo era of PCs with 2GB RAM or more (in other words, older, weaker PCs), where little resource usage is key, yet maintaining a modern look for the UI."
 echo ""
