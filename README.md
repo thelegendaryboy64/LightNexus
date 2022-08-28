@@ -9,6 +9,7 @@ Simple installer for polishing MATE (on Arch Linux) that:
 This project was initially made as a way for me to simplify installing and pre-configuring MATE to feel similar as 🍎, yet looking unique in its own way and also using least resources as possible. (Tested on a HP ProBook 6530b, made in 2008, running a Core 2 Duo P8400 with 4GB RAM with no issues)
 
 Minimum system requirements:
+ - Root access
  - 64-bit CPU/SOC
  - 2 GB of RAM
  - 16 GB of space (After installation, the whole OS, uncleaned takes up 8GB, so having some headroom would be nice)
