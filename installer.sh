@@ -24,7 +24,7 @@ echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 echo "Repositories are installed. Now installing: PAMAC App Store"
 sudo pacman -Syu --noconfirm pamac-aur
 echo "Installing basic applications. Others can be installed later using the PAMAC App Store."
-sudo pacman -S --noconfirm vlc chromium libreoffice-fresh yaru-gtk-theme yaru-icon-theme yaru-metacity-theme yaru-sound-theme plank brisk-menu mate-applet-dock mate-netbook mate-menu mate-tweak compiz cutefish-wallpapers gvfs-smb
+sudo pacman -S --noconfirm linux-lts-headers vlc chromium libreoffice-fresh yaru-gtk-theme yaru-icon-theme yaru-metacity-theme yaru-sound-theme plank brisk-menu mate-applet-dock mate-netbook mate-menu mate-tweak compiz cutefish-wallpapers gvfs-smb
 echo "Changing wallpaper"
 gsettings set org.mate.background picture-filename '/usr/share/backgrounds/cutefishos/wallpaper-3.jpg'
 gsettings set org.mate.background picture-options 'zoom'
