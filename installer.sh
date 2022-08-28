@@ -28,7 +28,6 @@ sudo pacman -S --noconfirm linux-lts-headers vlc chromium libreoffice-fresh yaru
 echo "Changing wallpaper"
 gsettings set org.mate.background picture-filename '/usr/share/backgrounds/cutefishos/wallpaper-3.jpg'
 gsettings set org.mate.background picture-options 'zoom'
-echo "[multilib-testing]" >> /etc/pacman.conf
 echo "Installation done!"
 echo "Please refer to the link attached below on how to continue the installation of YAY to download extra applications if needed."
 read -p "https://github.com/thelegendaryboy64/LightNexus/blob/main/YAYInstallation.md"
