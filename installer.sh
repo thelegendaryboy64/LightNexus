@@ -7,7 +7,7 @@ echo ""
 read -p "If you're ready to install LightNexus, press ENTER, if not, stop the installer using CTRL+C"
 clear
 echo "Let's go!"
-echo "Checking if your installation needs an update to continue, a restart will be ran at the end."
+echo "Checking if your installation needs an update to continue, a restart will be required after the full installation."
 pacman -Syu --noconfirm
 echo "Installing repositories for LightNexus to function, please wait."
 # Thanks to https://aur.chaotic.cz for providing this repository and giving an easier way to install PAMAC!
