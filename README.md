@@ -16,4 +16,7 @@ Minimum system requirements:
  - 16 GB of space (After installation, the whole OS, uncleaned takes up 8GB, so having some headroom would be nice)
  - Internet connectivity (only for the installation and web browsing)
 
-The script needs to be transferred over a USB stick or downloading it with git beforehand. Video guide on installing LightNexus from the very beginning will be available soon.
+The script needs to be transferred over a USB stick or downloading it with wget.
+
+# Video guide
+https://www.youtube.com/watch?v=YTGB5KBE9yc
