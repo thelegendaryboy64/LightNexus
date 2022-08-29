@@ -14,7 +14,7 @@ Minimum system requirements:
  - Root access
  - 64-bit CPU/SOC
  - 2 GB of RAM
- - 16 GB of space (After installation, the whole OS, uncleaned takes up 1,5GB, so having some headroom would be nice)
+ - 8 GB of space (After installation, the whole OS, uncleaned takes up 1,5GB, so having some headroom would be nice)
  - Internet connectivity (only for the installation and web browsing)
 
 The Part 1 script needs to be transferred over a USB stick or downloading it with wget, while the Part 2's download instructions are shown at the end of Part 1.
