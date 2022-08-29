@@ -19,5 +19,5 @@ Minimum system requirements:
 
 The script needs to be transferred over a USB stick or downloading it with wget.
 
-# Video guide (outdated)
-https://www.youtube.com/watch?v=YTGB5KBE9yc
+# Video guide
+(outdated, soon to be replaced)
