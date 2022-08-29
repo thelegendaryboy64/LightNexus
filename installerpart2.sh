@@ -63,6 +63,7 @@ echo "Configuring the desktop"
 cd .config
 rm -rf dconf
 mkdir dconf
+cd dconf
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/dconf/user
 cd
 echo "Installation fully finished! You should reboot your PC now for changes to take effect."
