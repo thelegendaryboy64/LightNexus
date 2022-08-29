@@ -1,6 +1,7 @@
 #!/bin/sh
 clear
 echo "Welcome to the part 2 of the LightNexus installer! This requires to not allow root access for this installer to function properly. If you had run this script with SUDO, please stop the installer using CTRL+C"
+echo "Make sure the this .SH file is stored in your home folder or else it may not behave correctly."
 echo ""
 read -p "If you're ready to continue, press ENTER to begin the second part of the installation sequence."
 clear
