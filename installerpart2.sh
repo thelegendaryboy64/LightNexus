@@ -63,7 +63,6 @@ wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock1/launchers/libreoffice-calc.dockitem
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock1/launchers/libreoffice-impress.dockitem
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock1/launchers/org.manjaro.pamac.manager.dockitem
-wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock1/launchers/mate-terminal.dockitem
 cd
 echo "Configuring the desktop"
 cd .config
