@@ -6,7 +6,7 @@ echo ""
 read -p "If you're ready to continue, press ENTER to begin the second part of the installation sequence."
 clear
 echo "Let's go!"
-echo "Installing YAY automatically"
+echo "Installing YAY automatically (you may be asked for your password)"
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si --noconfirm
