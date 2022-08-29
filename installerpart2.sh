@@ -22,12 +22,12 @@ cd mate
 rm -rf backgrounds.xml
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/mate/backgrounds.xml
 echo "Enabling Compiz for autostart"
+cd .config
+rm -rf autostart
 cd /usr/share/applications
 cp compiz.desktop ~/.config/autostart/
 cd
 cd .config
-# assuming the autostart folder isn't auto generated on first boot
-mkdir autostart
 cd autostart
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/autostart/compiz.desktop
 cd
