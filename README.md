@@ -3,6 +3,7 @@
 Simple installer for polishing MATE (on Arch Linux) that:
  - Installs extra repositories for easy finding of applications using the help of Chaotic AUR.
  - Installs bare essentials, like: Chromium, LibreOffice, VLC.
+ - Installs SMB support for accesing file shares hosted over a Windows OS. 
  - Beautifies MATE with CutefishOS wallpapers, basic Compiz animations, BriskMenu and Yaru theme components.
 ![Screenshot of a hand-made installation of LightNexus](https://github.com/thelegendaryboy64/LightNexus/blob/main/images/vmware_VaJFUWM7Lb.png?raw=true)
 (Photo attached is a hand-made installation of LightNexus, soon to be turned into a simple script that does everything in 1 shot.)
