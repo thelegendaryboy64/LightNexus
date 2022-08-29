@@ -27,7 +27,7 @@ echo "Installing basic applications. Others can be installed later using the PAM
 sudo pacman -S --noconfirm linux-lts-headers vlc chromium libreoffice-fresh yaru-gtk-theme yaru-icon-theme yaru-metacity-theme yaru-sound-theme plank brisk-menu mate-applet-dock mate-netbook mate-menu mate-tweak compiz cutefish-wallpapers gvfs-smb
 sudo pacman -R --noconfirm mate-backgrounds
 echo "Installation (Part 1) done!"
-wget https://github.com/thelegendaryboy64/LightNexus/raw/main/installerpart2.sh
-echo "Please refer to installerpart2.sh in the same folder where the script was ran (it should be the home folder likely) and allow execution in terminal. DO NOT RUN IT WITH SUDO!!"
+echo "Please run (wget https://github.com/thelegendaryboy64/LightNexus/raw/main/installerpart2.sh) without brackets in a separate command window to download the part 2."
+echo "The file should be in the home of your user account folder and allow execution in terminal. DO NOT RUN IT WITH SUDO!!"
 read -p "Press ENTER to exit."
 exit
