@@ -31,6 +31,7 @@ cp compiz.desktop ~/.config/autostart
 cd
 cd .config
 cd autostart
+rm -rf compiz.desktop
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/autostart/compiz.desktop
 cd
 echo "Setting up Compiz animations"
