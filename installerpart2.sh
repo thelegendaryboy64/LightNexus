@@ -59,10 +59,11 @@ wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock1/launchers/org.manjaro.pamac.manager.dockitem
 wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/plank/dock1/launchers/mate-terminal.dockitem
 cd
-# echo "Configuring the desktop"
-# cd .config
-# rm -rf dconf
-# mkdir dconf
-# wget [URL]
-echo "Installation fully finished!"
-read -p "Press ENTER to exit!"
+echo "Configuring the desktop"
+cd .config
+rm -rf dconf
+mkdir dconf
+wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/dconf/user
+cd
+echo "Installation fully finished! You should reboot your PC now for changes to take effect."
+read -p "Press ENTER to exit"
