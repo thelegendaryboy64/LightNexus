@@ -25,6 +25,7 @@ echo "Enabling Compiz for autostart"
 cd
 cd .config
 rm -rf autostart
+mkdir autostart
 cd /usr/share/applications
 cp compiz.desktop ~/.config/autostart
 cd
