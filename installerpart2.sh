@@ -30,6 +30,7 @@ wget https://github.com/thelegendaryboy64/LightNexus/raw/main/.config/autostart/
 cd
 echo "Setting up Compiz animations"
 # assuming the folders aren't auto generated
+cd .config
 mkdir compiz-1
 cd compiz-1
 mkdir compizconfig
