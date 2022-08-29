@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=compiz --replace
+Hidden=false
+Name[en_US]=Compiz Launcher
+Name=Compiz Launcher
+Comment[en_US]=
+Comment=
+X-MATE-Autostart-Delay=0
