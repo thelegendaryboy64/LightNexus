@@ -31,6 +31,7 @@ cd
 echo "Setting up Compiz animations"
 # assuming the folders aren't auto generated
 cd .config
+rm -rf compiz-1
 mkdir compiz-1
 cd compiz-1
 mkdir compizconfig
