@@ -13,7 +13,7 @@ This project was initially made as a way for me to simplify installing and pre-c
 Minimum system requirements:
  - 64-bit CPU/SOC
  - 2 GB of RAM
- - 8 GB of space (After installation, the whole OS, uncleaned takes up 1,5GB, so having some headroom would be nice)
+ - 8 GB of space (After installation, the whole OS, uncleaned takes up 1,5 GB, so having some headroom would be nice)
  - Internet connectivity (only for the installation and web browsing)
 
 The Part 1 script needs to be transferred over a USB stick or downloading it with wget, while the Part 2 download instructions are shown at the end of Part 1.
