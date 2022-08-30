@@ -19,4 +19,4 @@ Minimum system requirements:
 The Part 1 script needs to be transferred over a USB stick or downloading it with wget, while the Part 2 download instructions are shown at the end of Part 1.
 
 # Video guide
-(outdated, soon to be replaced)
+N/A
