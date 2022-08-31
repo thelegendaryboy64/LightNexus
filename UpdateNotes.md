@@ -1,4 +1,6 @@
 # Update notes
+# Beta 4
+ - Emoji support! Express your emotions with emoticons with this new update! 😄🐧
 # Beta 3
  - Added Bluetooth support for Bluetooth enabled devices in installer.sh.
  - Added NTFS FS support for 🪟-formatted drives
