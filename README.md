@@ -3,7 +3,7 @@
 Simple installers for polishing MATE (on Arch Linux) that:
  - Installs extra repositories for easy finding of applications using the help of Chaotic AUR and Arch AUR (with the YAY command);
  - Installs bare essentials, like: Chromium, LibreOffice, VLC;
- - Adds Windows compatability by adding Wine and SMB support to Caja;
+ - Adds Windows compatability by adding Wine, SMB and NTFS support to Caja;
  - Beautifies MATE with CutefishOS wallpapers, basic Compiz animations, BriskMenu and Yaru theme components.
 ![Screenshot of a installation of LightNexus, all thanks to the installers.](https://github.com/thelegendaryboy64/LightNexus/blob/main/images/vmware_9AxL9veAFS.png?raw=true)
 (Photo attached is a installation of LightNexus, all thanks to the installers.)
