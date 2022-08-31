@@ -7,6 +7,7 @@
 
 # Beta 2
  - Fixed YAY installation, background applying and desktop look changing by splitting the installer to 2 parts, so now there's installer.sh and installerpart2.sh.
+ - WineTricks+Wine included.
 
 # Beta 1
- - 1 script installs apps and adds extra repositories.
+ - 1 script installs apps, adds extra repositories and adds SMB support for Caja.
