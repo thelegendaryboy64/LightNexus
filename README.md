@@ -1,5 +1,5 @@
 ![Logo](https://github.com/thelegendaryboy64/LightNexus/blob/main/images/lightnexus.png?raw=true)
-# LightNexus (Beta 2)
+# LightNexus (Beta 3)
 Simple installers for polishing MATE (on Arch Linux) that:
  - Installs extra repositories for easy finding of applications using the help of Chaotic AUR and Arch AUR (with the YAY command);
  - Installs bare essentials, like: Chromium, LibreOffice, VLC;
@@ -17,6 +17,3 @@ Minimum system requirements:
  - Internet connectivity (only for the installation and web browsing)
 
 The Part 1 script needs to be transferred over a USB stick or downloading it with wget, while the Part 2 download instructions are shown at the end of Part 1.
-
-# Video guide
-N/A
