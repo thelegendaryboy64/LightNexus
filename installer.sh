@@ -2,7 +2,7 @@
 clear
 echo "If you ran this installer without root access, please press CTRL+C to stop this installer and add SUDO at the beginning before continuing with the installation."
 echo ""
-echo "Version: Beta 4"
+echo "Version: Beta 5"
 echo "Welcome to LightNexus! This is made for older, weaker PCs, where little resource usage is key, yet maintaining a modern look for the UI."
 echo ""
 read -p "If you're ready to install LightNexus, press ENTER, if not, stop the installer using CTRL+C"
