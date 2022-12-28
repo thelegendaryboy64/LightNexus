@@ -10,7 +10,12 @@ clear
 echo "Let's go!"
 echo "Checking if your installation needs an update to continue, a restart will be required after the full installation."
 pacman -Syu --noconfirm
-echo "Installing repositories for LightNexus to function, please wait."
+echo "Installing basic applications. Others can be installed later using the PAMAC App Store."
+sudo pacman -S --noconfirm linux-lts-headers neofetch vlc chromium libreoffice-fresh yaru-gtk-theme yaru-icon-theme yaru-metacity-theme yaru-sound-theme plank brisk-menu mate-applet-dock mate-netbook mate-menu mate-tweak compiz cutefish-wallpapers gvfs-smb wine wine-mono vkd3d winetricks bluez blueman ntfs-3g noto-fonts-emoji
+sudo pacman -R --noconfirm mate-backgrounds
+echo "Enabling Bluetooth support on startup"
+sudo systemctl enable bluetooth
+echo "Installing a repository for LightNexus, please wait."
 # Thanks to https://aur.chaotic.cz for providing this repository and giving an easier way to install PAMAC!
 sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key FBA220DFC880C036
@@ -24,11 +29,6 @@ echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 # Assuming I didn't tell the user to add multilib in the video, though I don't think pacman will freak out for multiple repeated repos.
 echo "Repositories are installed. Now installing: PAMAC App Store"
 sudo pacman -Syu --noconfirm pamac-aur
-echo "Installing basic applications. Others can be installed later using the PAMAC App Store."
-sudo pacman -S --noconfirm linux-lts-headers neofetch vlc chromium libreoffice-fresh yaru-gtk-theme yaru-icon-theme yaru-metacity-theme yaru-sound-theme plank brisk-menu mate-applet-dock mate-netbook mate-menu mate-tweak compiz cutefish-wallpapers gvfs-smb wine wine-mono vkd3d winetricks bluez blueman ntfs-3g noto-fonts-emoji
-sudo pacman -R --noconfirm mate-backgrounds
-echo "Enabling Bluetooth support on startup"
-sudo systemctl enable bluetooth
 echo "Installation (Part 1) done!"
 echo "Please run (wget https://github.com/thelegendaryboy64/LightNexus/raw/main/installerpart2.sh) without brackets in a separate command window to download the part 2."
 echo "The file should be in the home of your user account folder and allow execution in terminal. DO NOT RUN IT WITH SUDO!!"
