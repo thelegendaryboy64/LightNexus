@@ -1,6 +1,7 @@
 # Update notes
 # Beta 5
  - Fixes a package conflict that breaks MATE because of an addition to Chaotic AUR, LIB32-LIBGLVND-GIT.
+ - Adds wobbly windows.
 # Beta 4
  - Emoji support! Express your emotions with emoticons with this new update! 😄🐧
 # Beta 3
